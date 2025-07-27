@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Know Your Rights - Legal Awareness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Know Your Rights</h1>
+    <nav>
+      <ul>
+        <li><a href="#rights">Fundamental Rights</a></li>
+        <li><a href="#topics">Legal Topics</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="rights" class="section">
+    <h2>Fundamental Rights</h2>
+    <div class="card-container">
+      <div class="card" onclick="showInfo('right1')">
+        <h3>Right to Equality</h3>
+      </div>
+      <div class="card" onclick="showInfo('right2')">
+        <h3>Right to Freedom</h3>
+      </div>
+      <div class="card" onclick="showInfo('right3')">
+        <h3>Right Against Exploitation</h3>
+      </div>
+      <div class="card" onclick="showInfo('right4')">
+        <h3>Right to Freedom of Religion</h3>
+      </div>
+      <div class="card" onclick="showInfo('right5')">
+        <h3>Cultural & Educational Rights</h3>
+      </div>
+      <div class="card" onclick="showInfo('right6')">
+        <h3>Right to Constitutional Remedies</h3>
+      
+    
+      </div>
+    </div>
+  </section>
+
+  <section id="topics" class="section">
+    <h2>Other Legal Topics</h2>
+    <div class="card-container">
+      <div class="card" onclick="showInfo('sexual')">
+        <h3>Sexual Harassment</h3>
+      </div>
+      <div class="card" onclick="showInfo('violence')">
+        <h3>Domestic Violence</h3>
+      </div>
+      <div class="card" onclick="showInfo('marriage')">
+        <h3>Marriage & Divorce</h3>
+      </div>
+      <div class="card" onclick="showInfo('property')">
+        <h3>Property Rights</h3>
+      </div>
+    </div>
+  </section>
+
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="infoText"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Know Your Rights | Developed by Sanket Jadhav</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
